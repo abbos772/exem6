@@ -482,6 +482,13 @@
   letter-spacing: 0%;
   text-align: left;
 }
+.rasm {
+  transition: 0.3s;
+}
+
+.api_card:hover .rasm {
+  transform: scale(1.1) !important ;
+}
 .api_card {
   transition: 0.3s;
 }
@@ -490,6 +497,9 @@
 }
 .bst {
   margin-left: 25px;
+}
+.api_img img {
+  transform: scale(1.05);
 }
 @media (max-width: 400px) {
   .mySwiper img {

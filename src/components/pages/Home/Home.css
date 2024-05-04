@@ -7,6 +7,27 @@
   max-width: 1586px;
   padding: 60px;
 }
+.hero2 {
+  background-image: url(../../img/banner-1.png.png);
+  background-size: 100% 538px;
+
+  height: 538px;
+  background-repeat: no-repeat;
+  max-width: 1586px;
+  padding: 60px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.hero3 {
+  background-image: url(../../img/banner-2.png);
+  background-size: 100% 538px;
+  height: 538px;
+  background-repeat: no-repeat;
+  max-width: 1586px;
+  padding: 60px;
+  border-radius: 20px;
+  object-fit: cover;
+}
 .search {
   width: 450px;
   height: 64px;
@@ -475,6 +496,17 @@
   .hero p {
     font-size: 30px;
   }
+  .hero2 h1 {
+  }
+  .hero2 p {
+    font-size: 30px;
+  }
+  .hero3 h1 {
+    font-size: 40px;
+  }
+  .hero3 p {
+    font-size: 30px;
+  }
 }
 @media (max-width: 768px) {
   .api_p {
@@ -488,6 +520,19 @@
     font-size: 16px;
   }
   .hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero3 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;

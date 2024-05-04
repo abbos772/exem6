@@ -55,32 +55,34 @@ function Home() {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide
-              style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
-              <img className="" src={ceratine} width={600} alt="" />
+            <SwiperSlide>
+              <div className="hero hero2">
+                <div className="hero_text">
+                  <h1>
+                    Welcome to
+                    <br /> Uzbekistan <br />
+                  </h1>
+                  <p>Save up to 50% off on your first order</p>
+                  <div className="search">
+                    <p className="pp"> Your emaill address</p>
+                    <button className="btn_ser">Subscribe</button>
+                  </div>
+                </div>
+              </div>
             </SwiperSlide>
-            <SwiperSlide
-              style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
-              <img src={mass} alt="" width={600} />
-            </SwiperSlide>
-            <SwiperSlide
-              style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
-              <img src={pro} width={600} alt="" />
+            <SwiperSlide>
+              <div className="hero hero3">
+                <div className="hero_text">
+                  <h1>
+                    The Bests <br /> Fruits
+                  </h1>
+                  <p>Save up to 50% off on your first order</p>
+                  <div className="search">
+                    <p className="pp"> Your emaill address</p>
+                    <button className="btn_ser">Subscribe</button>
+                  </div>
+                </div>
+              </div>
             </SwiperSlide>
           </Swiper>
         </div>
